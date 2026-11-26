@@ -17,7 +17,7 @@ public class IAPaddle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ball != null)
+        if (ball != null && ball.isMoving == true)
         {
             if (ball.transform.position.y > transform.position.y)
             {

@@ -1,7 +1,5 @@
-using UnityEditor.Build.Reporting;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 
 public class GameManeger : MonoBehaviour
 {
